@@ -297,7 +297,7 @@ public class WebRepository : IRepository
     {
         return Task.FromResult<IReadOnlyCollection<IArt>>(new List<IArt>
         {
-            new RepositoryArt("https://onepace.net/images/one-pace-logo.svg")
+            new RepositoryArt("https://svgur.com/i/192n.svg")
         });
     }
 
